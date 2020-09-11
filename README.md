@@ -16,7 +16,12 @@ Sent Fetched Description to Shakesphere API to translate the data to shakesphere
 # How to run this application
 
 1. Open the Pokemon_Translator folder to get all the files.
-2. Clone this repository in your favourite editor -:)
-3. Use Command npm start in terminal 
-4. Open the localhost:2000 in browser and Enter your Pokemon Name to get its description in Shakesperean English format.
+2. $ git clone https://github.com/Swapnilpi/Poke_Shakes_Search_Engine.git
+3. Clone this repository in your favourite editor -:) 
+3. Use Command $ npm start
+4. Open the https://localhost:2000 in browser and Enter your Pokemon Name in search bar to get its description in Shakesperean English format.
 
+# Useful API
+
+1. https://pokeapi.co 
+2. https://funtranslations.com/api/shakespeare
