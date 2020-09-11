@@ -1,0 +1,22 @@
+{
+  "name": "jsonfile-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon pokeTranslator.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7",
+    "pokedex-promise-v2": "^3.2.0",
+    "pokemon": "^2.0.2",
+    "request": "^2.88.2"
+  }
+}

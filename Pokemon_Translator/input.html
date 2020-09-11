@@ -1,0 +1,31 @@
+
+<div data-role="page" id="pokeSearch-page">
+    <div data-role="header" data-theme="b">
+        <h1>Translation from Text to Shakesperean English </h1>
+    </div>
+    <div data-role="main" class="ui-content">
+        <form id="pokeForm" onsubmit="yourFunction()" method="GET">
+            <div>
+                <label for="pokeInput">Pokemon name:
+                    <input type="text" name="pokeInput" id="pokeInput" placeholder="Name">
+            </div>
+            <br>
+            <div>
+                <button type="submit" > Search </button>
+            </div>
+        </form>
+        <div>
+            <ul data-role="listview" data-inset="true" id="pokeDetails">
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+    function yourFunction() 
+    { 
+        let action_src = "http://localhost:2000/pokemon/" + document.getElementsByName("pokeInput")[0].value; 
+    let your_form = document.getElementById('pokeForm'); 
+    your_form.action = action_src;
+     }
+     
+</script>
