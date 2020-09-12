@@ -3,7 +3,7 @@
 Run-time Envirnment- NodeJS, Frameworks - Express, Language - JavaScript.
 
 This Search Engine takes a Pokemon name and returns its description in Shakespearean English format.
-In this Project, I have created a REST-API. Getting a Pokemon_Name as an Input from a User, then calling pokemon api with specified pokemon name to fetch its description. 
+In this Project, I have created a Search Engine. Getting a Pokemon_Name as an Input from a User, then calling pokemon api with specified pokemon name to fetch its description. 
 Sent Fetched Description to Shakesphere API to translate the data to shakespherean English and Display the translated shakespherean English output.
 
 # Installations for this project to run
